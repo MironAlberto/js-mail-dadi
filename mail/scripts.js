@@ -16,7 +16,7 @@ const validEmails = [
 
 let checkEmail = 0;
 
-for (i = 0; i<validEmails.length; i++){
+for (i = 0; i < validEmails.length && checkEmail == 0; i++){
 
     if (validEmails[i] == Emails){
         alert("Email valida");
