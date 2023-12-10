@@ -15,9 +15,9 @@ if (randomNumber1 === randomNumber2) {
 } 
 
 else if (randomNumber1 < randomNumber2) { 
-    document.querySelector(".vittoria-player1").innerHTML = (" ha vinto!"); 
+    document.querySelector(".vittoria-player2").innerHTML = (" ha vinto!"); 
 } 
 
 else { 
-    document.querySelector(".vittoria-player2").innerHTML = (" ha vinto!"); 
+    document.querySelector(".vittoria-player1").innerHTML = (" ha vinto!"); 
 } 
